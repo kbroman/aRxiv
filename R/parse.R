@@ -8,6 +8,10 @@ function(searchresult)
         warning('arXiv error: "', content, '"')
         return(NULL)
     }
+    if(is.character(content) && length(content)==1 && content=="") {
+        warning('arXiv error: empty result')
+        return(NULL)
+    }
 
     doc <- XML::xmlParse(httr::content(searchresult, "text", encoding="UTF-8"), asText=TRUE)
     nodes <- rapply(list(doc), function(a) XML::getNodeSet(a, path="/"),

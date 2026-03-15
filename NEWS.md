@@ -1,3 +1,12 @@
+aRxiv 0.19-1
+------------
+
+### BUG FIXES
+
+* arXiv is now sometimes giving empty results rather than an error.
+  Revised `result2list()` to accommodate this.
+
+
 aRxiv 0.18
 ----------
 
