@@ -11,7 +11,7 @@ https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org
 computer science, mathematics, physics, quantitative biology,
 quantitative finance, and statistics. The
 [aRxiv](https://github.com/ropensci/aRxiv) package is an R interface to
-the [arXiv API](https://arxiv.org/help/api/index.html).
+the [arXiv API](https://info.arxiv.org/help/api/index.html).
 
 Note that the arXiv API _does not_ require an API key.
 
@@ -76,11 +76,11 @@ vignette("aRxiv", "aRxiv")
 ### Links
 
 * [arXiv](https://arxiv.org)
-* [arXiv API](https://arxiv.org/help/api/index.html)
-* [arXiv API user manual](https://arxiv.org/help/api/user-manual.html)
-* [Bulk data access to arXiv](https://arxiv.org/help/bulk_data)
-* [Bulk data access to arXiv metadata via OAI-PMH](https://arxiv.org/help/oa/index.html)
-* [Bulk data access to arXiv PDFs and source docs](https://arxiv.org/help/bulk_data_s3.html)
+* [arXiv API](https://info.arxiv.org/help/api/index.html)
+* [arXiv API user manual](https://info.arxiv.org/help/api/user-manual.html)
+* [Bulk data access to arXiv](https://info.arxiv.org/help/bulk_data)
+* [Bulk data access to arXiv metadata via OAI-PMH](https://info.arxiv.org/help/oa/index.html)
+* [Bulk data access to arXiv PDFs and source docs](https://info.arxiv.org/help/bulk_data_s3.html)
 
 
 ### License
