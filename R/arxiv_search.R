@@ -66,8 +66,6 @@
 #' [query_terms()], [arxiv_cats()]
 #'
 #' @examples
-#' \dontshow{old_delay <- getOption("aRxiv_delay")
-#'           options(aRxiv_delay=1)}
 #' \donttest{
 #' if(interactive()) {
 #'     # search for author Peter Hall with deconvolution in title
@@ -85,7 +83,6 @@
 #'     # search for a range of dates (in this case, one day)
 #'     z <- arxiv_search("submittedDate:[199701010000 TO 199701012359]", limit=2)
 #' } }
-#' \dontshow{options(aRxiv_delay=old_delay)}
 #'
 #' @export
 arxiv_search <-

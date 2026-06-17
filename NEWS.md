@@ -1,3 +1,11 @@
+aRxiv 0.21-1
+------------
+
+### MINOR CHANGES
+
+- Remove changes to `aRxiv_delay` in examples.
+
+
 aRxiv 0.20
 ----------
 
