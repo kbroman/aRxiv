@@ -6,8 +6,8 @@ aRxiv 0.20
 * arXiv is now sometimes giving empty results rather than an error.
   Revised `result2list()` to accommodate this.
 
-* Increased `aRxiv_delay` in vignette to 3 sec; continually getting
-  "too many requests" errors otherwise.
+* Increased `aRxiv_delay` in vignette and tests to 3 sec; continually
+  getting "too many requests" errors otherwise.
 
 
 aRxiv 0.18
