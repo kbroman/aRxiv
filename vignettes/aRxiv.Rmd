@@ -42,7 +42,7 @@ if(on_cran || !aRxiv::can_arxiv_connect(1)) {
 ```
 
 ```{r change_aRxiv_delay_option, include=FALSE}
-options(aRxiv_delay=0.5)
+options(aRxiv_delay=3)
 ```
 
 ## Installation
