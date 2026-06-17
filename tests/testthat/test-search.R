@@ -6,7 +6,7 @@ test_that("empty results don't give an error", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
     # blank search
     expect_equal(omit_attr(arxiv_count("")), 0)
@@ -30,7 +30,7 @@ test_that("weird results for IDs not found", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
     # if id_list is syntactically correct but no manuscript, use to get weird results, but now just empty
     empty <- empty_result()
@@ -56,7 +56,7 @@ test_that("total_result attribute is correct", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
     query <- "ti:deconvolution"
     cnt <- arxiv_count(query)

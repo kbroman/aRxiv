@@ -2,7 +2,7 @@ context("cleaning the records")
 
 # shorter delay to speed tests
 old_delay <- getOption("aRxiv_delay")
-options(aRxiv_delay=0.5)
+options(aRxiv_delay=3)
 
 # do this only if not on CRAN
 on_cran <- Sys.getenv("NOT_CRAN")!="true"

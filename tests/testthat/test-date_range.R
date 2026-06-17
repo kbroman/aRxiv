@@ -6,7 +6,7 @@ test_that("search date ranges is quirky", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
 
     # is the same as truncating; completed to earliest time with that stem

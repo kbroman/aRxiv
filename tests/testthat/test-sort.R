@@ -6,7 +6,7 @@ test_that("sort by publishedDate", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
     query <- "ti:deconvolution"
 
@@ -29,7 +29,7 @@ test_that("sort by lastUpdatedDate", {
     # shorter delay to speed tests
     old_delay <- getOption("aRxiv_delay")
     on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=0.5)
+    options(aRxiv_delay=3)
 
     query <- 'ti:"EM algorithm"'
 
