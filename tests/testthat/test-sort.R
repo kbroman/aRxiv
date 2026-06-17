@@ -3,11 +3,6 @@ context("sort_by and sort_order args work")
 test_that("sort by publishedDate", {
     skip_on_cran()
 
-    # shorter delay to speed tests
-    old_delay <- getOption("aRxiv_delay")
-    on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=3)
-
     query <- "ti:deconvolution"
 
     z <- arxiv_search(query=query, sort_by="submitted", limit=2)
@@ -25,11 +20,6 @@ test_that("sort by publishedDate", {
 
 test_that("sort by lastUpdatedDate", {
     skip_on_cran()
-
-    # shorter delay to speed tests
-    old_delay <- getOption("aRxiv_delay")
-    on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=3)
 
     query <- 'ti:"EM algorithm"'
 

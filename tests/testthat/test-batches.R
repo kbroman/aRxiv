@@ -3,11 +3,6 @@ context("arxiv_search in batches")
 test_that("batch search gives same result as all together", {
     skip_on_cran()
 
-    # shorter delay to speed tests
-    old_delay <- getOption("aRxiv_delay")
-    on.exit(options(aRxiv_delay=old_delay))
-    options(aRxiv_delay=3)
-
     # all together
     z <- arxiv_search("au:Hall AND cat:stat.AP", start=0, limit=3)
     z_time <- attr(z, "search_info")["time"]
