@@ -78,7 +78,7 @@ vignette("aRxiv", "aRxiv")
 * [arXiv](https://arxiv.org)
 * [arXiv API](https://info.arxiv.org/help/api/index.html)
 * [arXiv API user manual](https://info.arxiv.org/help/api/user-manual.html)
-* [Bulk data access to arXiv](https://info.arxiv.org/help/bulk_data)
+* [Bulk data access to arXiv](https://info.arxiv.org/help/bulk_data/index.html)
 * [Bulk data access to arXiv metadata via OAI-PMH](https://info.arxiv.org/help/oa/index.html)
 * [Bulk data access to arXiv PDFs and source docs](https://info.arxiv.org/help/bulk_data_s3.html)
 
